@@ -1,0 +1,1 @@
+Collection of buggy HTML, CSS and JS code that I am too debug as an exercise
