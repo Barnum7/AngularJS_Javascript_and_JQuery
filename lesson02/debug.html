@@ -1,0 +1,30 @@
+01 <!DOCTYPE html>
+02 <html>
+03 <head>
+04 <meta charset="utf-8" />
+05 <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+06 <script>
+07 function incCount(){
+08 var cnt = 1;
+09 cnt += 1;
+10 return cnt;
+11 }
+12 function countIt(){
+13 $("#counter").html(incCount);
+14 }
+15 </script>
+16 <style>
+17 #clicker{
+18 background-color: #0066AA;
+19 color: #FFFFFF;
+20 font-weight: bold;
+21 border:2px solid, #C0C0C0;
+22 width: 65px;
+23 }
+24 </style>
+25 </head>
+26 <body>
+27 <div id="clicker" onclick="countIt()">Click Me</div>
+28 <div id="counter">1</div>
+29 </body>
+30 </html>
